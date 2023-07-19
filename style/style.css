@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(107, 213, 255);
+}
+
+header h1 {
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10% 30% 50% 5%;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: rgb(255, 107, 107);
+    box-shadow: 1px 2px 3px white , -1px -2px 3px white;
+}
+
+section {
+    width: 100%;
+    height: auto;
+}
+
+.input-con {
+    padding: 30px 0px;
+}
+
+.input-con p {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 1px rgb(172, 172, 172), -1px -1px rgb(160, 160, 160);
+}
+
+#table {
+    display: none;
+    box-shadow: 2px 3px 1px rgb(24, 143, 255),-2px -3px 1px rgb(61, 153, 240);
+    padding: 20px;
+}
+
+.input-con input {
+    width: 30%;
+    padding: 15px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-con button {
+    width: 30%;
+    padding: 15px 10px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 1px 0.5px 0 white;
+    cursor: pointer;
+}
+
+.ans-con {
+    width: 100%;
+}
+
+table td {
+    text-align: right;
+    letter-spacing: 10.8px;
+    font-size: 35px;
+    color: rgb(0, 119, 255);
+    text-shadow: 1px 1px 1px black;
+    padding-left: 15px;
+}
+
+#input-2-value {
+    border-bottom: 2px solid rgb(51, 105, 255);
+}
+
+@media only screen and (max-width:1400px) {
+    .input-con input {
+        width: 50%;
+    }
+    
+    .input-con button {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .input-con input {
+        width: 90%;
+    }
+    
+    .input-con button {
+        width: 90%;
+    }
+}
